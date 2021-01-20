@@ -1,0 +1,539 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.background {
+    width: 100%;
+    height: 600px;
+    opacity: .8;
+    position: absolute;
+    z-index: -10;
+    background-image: url("images/pexels-bri-schneiter-346529.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 120px;
+    color: white;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.nav {
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+
+.search {
+    box-sizing: border-box;
+    width: 40%;
+    height: 55px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.searchinput {
+    box-sizing: border-box;
+    background-color: white;
+    height: 40px;
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.searchinput:focus {
+    outline: none;
+}
+
+.sec1 {
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.art1 {
+    margin-top: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.four2 {
+    display: none;
+}
+
+.four {
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.four img {
+    width: 300px;
+    margin: 10px;
+
+}
+
+
+
+.explore p {
+    margin-top: 20px;
+    color: white;
+    
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.explore h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.line {
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background: white;
+
+}
+
+.reserve {
+    margin-top: 40px;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sec2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.background2 {
+    width: 100%;
+    height: 600px;
+    opacity: .8;
+    position: absolute;
+    z-index: -10;
+    background-image: url("images/MOUNTAINS.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+.newcultures {
+    color: white;
+    font-size: 56px;
+}
+
+.explore2 p {
+    margin-top: 20px;
+    color: white;
+    width: 400px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+
+.line2 {
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background: black;
+
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.events {
+    color: black;
+    margin-top: 100px;
+    font-size: 56px;
+}
+
+.line2 {
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background: crimson;
+}
+
+
+.cards {
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+
+}
+
+.card img {
+    width: 475px;
+    margin: 0 auto;
+}
+
+.card h3 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.card p {
+
+
+
+    text-align: center;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+
+.seemore {
+    margin-top: 30px;
+    background-color: crimson;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.seemore:focus {
+    outline: none;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.footer h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footer p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    
+}
+
+.footer a {
+    color: crimson;
+    font-weight: bolder;
+    margin-left: 5px;
+    text-underline-offset: 5px;
+}
+
+.exloremob {
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .background , .background2 {
+        height: 1000px;
+        
+    }
+
+    .nav {
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-between;
+    }
+
+    .search {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .art1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .explore {
+        display: none;
+    }
+
+    .exploremob {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .exploremob p {
+        margin-top: 20px;
+        color: white;
+        line-height: 28px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .exploremob .line {
+        margin: 0 auto;
+    }
+    
+    .exploremob h2 {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .reserve {
+        margin: 20px auto;
+    
+    }
+    .four {
+        display: none;
+    }
+
+    .four2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+      
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+       
+    }
+
+    .four2 img {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+
+    .sec2 {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.568);
+    }
+    
+    .background2 {
+        width: 100%;
+        height: 100%;
+        height: 600px;
+        opacity: .8;
+        position: absolute;
+        z-index: -10;
+        background-image: url("images/MOUNTAINS.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+
+    .newcultures {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .sec3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .events {
+        margin-top: 30px;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .line2 {
+        text-align: center;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .card img {
+        width: 90%;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 250px;
+       
+        box-sizing: border-box;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+  
+}
+
+
+@media only screen and (min-width: 769px)  {
+    .exploremob {
+        display: none;
+    }
+
+    .art1 {
+        width: 100%;
+    }
+
+    .explore {
+        width: 40%;
+    }
+
+    .four2 {
+        display: none;
+    }
+
+    .four {
+        width: 50%;
+    }
+
+    .four img {
+        width: 45%;
+    }
+    
+
+    .sec3 {
+        padding-bottom: 30px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
